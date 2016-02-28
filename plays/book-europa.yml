@@ -1,0 +1,11 @@
+---
+  - name: Configuring Europa, the Integrated Development Environment
+    hosts: europa
+    vars:
+      platform: europa
+    roles:
+      - europa
+
+    sudo: yes
+    remote_user: root
+
